@@ -13,7 +13,5 @@ app.get('/test', function (req, res) {
 });
 
 app.get('/', function (req, res) {
-    html = fs.readFileSync('index.html');
-    res.writeHead(200);
     res.send("Hello world")
 });
